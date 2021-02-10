@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayoutVirtual"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".VirtualActivity">
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/sub_title_black"
+        android:textSize="14px"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="Virtual Races"
+        android:background="@color/sub_title_background"/>
+
+</LinearLayout>
